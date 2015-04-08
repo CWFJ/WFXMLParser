@@ -16,6 +16,7 @@
 		DC0471441AD4EA750048EE5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC04713C1AD4EA750048EE5B /* main.m */; };
 		DC0471451AD4EA750048EE5B /* WFXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DC04713F1AD4EA750048EE5B /* WFXMLParser.m */; };
 		DC0471461AD4EA750048EE5B /* WFXMLParserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0471411AD4EA750048EE5B /* WFXMLParserModel.m */; };
+		DC04714A1AD4EECB0048EE5B /* test.xml in Resources */ = {isa = PBXBuildFile; fileRef = DC0471491AD4EECB0048EE5B /* test.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		DC04713F1AD4EA750048EE5B /* WFXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFXMLParser.m; sourceTree = "<group>"; };
 		DC0471401AD4EA750048EE5B /* WFXMLParserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFXMLParserModel.h; sourceTree = "<group>"; };
 		DC0471411AD4EA750048EE5B /* WFXMLParserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFXMLParserModel.m; sourceTree = "<group>"; };
+		DC0471491AD4EECB0048EE5B /* test.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = test.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		DC04710F1AD4E9E10048EE5B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DC0471491AD4EECB0048EE5B /* test.xml */,
 				DC0471191AD4E9E10048EE5B /* Main.storyboard */,
 				DC04711C1AD4E9E10048EE5B /* Images.xcassets */,
 				DC04711E1AD4E9E10048EE5B /* LaunchScreen.xib */,
@@ -244,6 +247,7 @@
 				DC04711B1AD4E9E10048EE5B /* Main.storyboard in Resources */,
 				DC0471201AD4E9E10048EE5B /* LaunchScreen.xib in Resources */,
 				DC04711D1AD4E9E10048EE5B /* Images.xcassets in Resources */,
+				DC04714A1AD4EECB0048EE5B /* test.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

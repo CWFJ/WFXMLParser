@@ -26,13 +26,8 @@
 }
 
 - (IBAction)xmlTest {
-    NSURL *url = [NSURL URLWithString:@"http://127.0.0.1/test.xml"];
-    
-    NSURLRequest *request = [NSURLRequest requestWithURL:url];
-    
-    [NSURLConnection sendAsynchronousRequest:request queue:[[NSOperationQueue alloc] init] completionHandler:^(NSURLResponse *response, NSData *data, NSError *connectionError) {
-        
-        NSLog(@"%@", [WFXMLParser XMLObjectWithData:data]);
-    }];
+    NSURL *xmlFilePath = [[NSBundle mainBundle] URLForResource:@"test.xml" withExtension:nil];
+    NSData *xmlData = [NSData dataWithContentsOfURL:xmlFilePath options:NSDataReadingUncached error:NULL];
+    NSLog(@"%@", [WFXMLParser XMLObjectWithData:xmlData]);
 }
 @end
