@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC04711B1AD4E9E10048EE5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC0471191AD4E9E10048EE5B /* Main.storyboard */; };
+		DC04711D1AD4E9E10048EE5B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC04711C1AD4E9E10048EE5B /* Images.xcassets */; };
+		DC0471201AD4E9E10048EE5B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC04711E1AD4E9E10048EE5B /* LaunchScreen.xib */; };
+		DC04712C1AD4E9E10048EE5B /* WFXMLParserDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC04712B1AD4E9E10048EE5B /* WFXMLParserDemoTests.m */; };
+		DC0471421AD4EA750048EE5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0471381AD4EA750048EE5B /* ViewController.m */; };
+		DC0471431AD4EA750048EE5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC04713B1AD4EA750048EE5B /* AppDelegate.m */; };
+		DC0471441AD4EA750048EE5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC04713C1AD4EA750048EE5B /* main.m */; };
+		DC0471451AD4EA750048EE5B /* WFXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DC04713F1AD4EA750048EE5B /* WFXMLParser.m */; };
+		DC0471461AD4EA750048EE5B /* WFXMLParserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0471411AD4EA750048EE5B /* WFXMLParserModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC0471261AD4E9E10048EE5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC0471041AD4E9E10048EE5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC04710B1AD4E9E10048EE5B;
+			remoteInfo = WFXMLParserDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC04710C1AD4E9E10048EE5B /* WFXMLParserDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WFXMLParserDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC0471101AD4E9E10048EE5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC04711A1AD4E9E10048EE5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC04711C1AD4E9E10048EE5B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DC04711F1AD4E9E10048EE5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DC0471251AD4E9E10048EE5B /* WFXMLParserDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WFXMLParserDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC04712A1AD4E9E10048EE5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC04712B1AD4E9E10048EE5B /* WFXMLParserDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFXMLParserDemoTests.m; sourceTree = "<group>"; };
+		DC0471371AD4EA750048EE5B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DC0471381AD4EA750048EE5B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DC04713A1AD4EA750048EE5B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC04713B1AD4EA750048EE5B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC04713C1AD4EA750048EE5B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC04713E1AD4EA750048EE5B /* WFXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFXMLParser.h; sourceTree = "<group>"; };
+		DC04713F1AD4EA750048EE5B /* WFXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFXMLParser.m; sourceTree = "<group>"; };
+		DC0471401AD4EA750048EE5B /* WFXMLParserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFXMLParserModel.h; sourceTree = "<group>"; };
+		DC0471411AD4EA750048EE5B /* WFXMLParserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFXMLParserModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC0471091AD4E9E10048EE5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC0471221AD4E9E10048EE5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC0471031AD4E9E10048EE5B = {
+			isa = PBXGroup;
+			children = (
+				DC04710E1AD4E9E10048EE5B /* WFXMLParserDemo */,
+				DC0471281AD4E9E10048EE5B /* WFXMLParserDemoTests */,
+				DC04710D1AD4E9E10048EE5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC04710D1AD4E9E10048EE5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC04710C1AD4E9E10048EE5B /* WFXMLParserDemo.app */,
+				DC0471251AD4E9E10048EE5B /* WFXMLParserDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC04710E1AD4E9E10048EE5B /* WFXMLParserDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DC0471351AD4EA750048EE5B /* Classes */,
+				DC04710F1AD4E9E10048EE5B /* Supporting Files */,
+			);
+			path = WFXMLParserDemo;
+			sourceTree = "<group>";
+		};
+		DC04710F1AD4E9E10048EE5B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC0471191AD4E9E10048EE5B /* Main.storyboard */,
+				DC04711C1AD4E9E10048EE5B /* Images.xcassets */,
+				DC04711E1AD4E9E10048EE5B /* LaunchScreen.xib */,
+				DC0471101AD4E9E10048EE5B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC0471281AD4E9E10048EE5B /* WFXMLParserDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC04712B1AD4E9E10048EE5B /* WFXMLParserDemoTests.m */,
+				DC0471291AD4E9E10048EE5B /* Supporting Files */,
+			);
+			path = WFXMLParserDemoTests;
+			sourceTree = "<group>";
+		};
+		DC0471291AD4E9E10048EE5B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC04712A1AD4E9E10048EE5B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC0471351AD4EA750048EE5B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DC0471361AD4EA750048EE5B /* Controller */,
+				DC0471391AD4EA750048EE5B /* Others */,
+				DC04713D1AD4EA750048EE5B /* WFExtension */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DC0471361AD4EA750048EE5B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DC0471371AD4EA750048EE5B /* ViewController.h */,
+				DC0471381AD4EA750048EE5B /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DC0471391AD4EA750048EE5B /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				DC04713A1AD4EA750048EE5B /* AppDelegate.h */,
+				DC04713B1AD4EA750048EE5B /* AppDelegate.m */,
+				DC04713C1AD4EA750048EE5B /* main.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		DC04713D1AD4EA750048EE5B /* WFExtension */ = {
+			isa = PBXGroup;
+			children = (
+				DC04713E1AD4EA750048EE5B /* WFXMLParser.h */,
+				DC04713F1AD4EA750048EE5B /* WFXMLParser.m */,
+				DC0471401AD4EA750048EE5B /* WFXMLParserModel.h */,
+				DC0471411AD4EA750048EE5B /* WFXMLParserModel.m */,
+			);
+			path = WFExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC04710B1AD4E9E10048EE5B /* WFXMLParserDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC04712F1AD4E9E10048EE5B /* Build configuration list for PBXNativeTarget "WFXMLParserDemo" */;
+			buildPhases = (
+				DC0471081AD4E9E10048EE5B /* Sources */,
+				DC0471091AD4E9E10048EE5B /* Frameworks */,
+				DC04710A1AD4E9E10048EE5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WFXMLParserDemo;
+			productName = WFXMLParserDemo;
+			productReference = DC04710C1AD4E9E10048EE5B /* WFXMLParserDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC0471241AD4E9E10048EE5B /* WFXMLParserDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC0471321AD4E9E10048EE5B /* Build configuration list for PBXNativeTarget "WFXMLParserDemoTests" */;
+			buildPhases = (
+				DC0471211AD4E9E10048EE5B /* Sources */,
+				DC0471221AD4E9E10048EE5B /* Frameworks */,
+				DC0471231AD4E9E10048EE5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC0471271AD4E9E10048EE5B /* PBXTargetDependency */,
+			);
+			name = WFXMLParserDemoTests;
+			productName = WFXMLParserDemoTests;
+			productReference = DC0471251AD4E9E10048EE5B /* WFXMLParserDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC0471041AD4E9E10048EE5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Jason;
+				TargetAttributes = {
+					DC04710B1AD4E9E10048EE5B = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					DC0471241AD4E9E10048EE5B = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = DC04710B1AD4E9E10048EE5B;
+					};
+				};
+			};
+			buildConfigurationList = DC0471071AD4E9E10048EE5B /* Build configuration list for PBXProject "WFXMLParserDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC0471031AD4E9E10048EE5B;
+			productRefGroup = DC04710D1AD4E9E10048EE5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC04710B1AD4E9E10048EE5B /* WFXMLParserDemo */,
+				DC0471241AD4E9E10048EE5B /* WFXMLParserDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC04710A1AD4E9E10048EE5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC04711B1AD4E9E10048EE5B /* Main.storyboard in Resources */,
+				DC0471201AD4E9E10048EE5B /* LaunchScreen.xib in Resources */,
+				DC04711D1AD4E9E10048EE5B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC0471231AD4E9E10048EE5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC0471081AD4E9E10048EE5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC0471431AD4EA750048EE5B /* AppDelegate.m in Sources */,
+				DC0471441AD4EA750048EE5B /* main.m in Sources */,
+				DC0471421AD4EA750048EE5B /* ViewController.m in Sources */,
+				DC0471461AD4EA750048EE5B /* WFXMLParserModel.m in Sources */,
+				DC0471451AD4EA750048EE5B /* WFXMLParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC0471211AD4E9E10048EE5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC04712C1AD4E9E10048EE5B /* WFXMLParserDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC0471271AD4E9E10048EE5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC04710B1AD4E9E10048EE5B /* WFXMLParserDemo */;
+			targetProxy = DC0471261AD4E9E10048EE5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC0471191AD4E9E10048EE5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC04711A1AD4E9E10048EE5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC04711E1AD4E9E10048EE5B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC04711F1AD4E9E10048EE5B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC04712D1AD4E9E10048EE5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC04712E1AD4E9E10048EE5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC0471301AD4E9E10048EE5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WFXMLParserDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC0471311AD4E9E10048EE5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WFXMLParserDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DC0471331AD4E9E10048EE5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WFXMLParserDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WFXMLParserDemo.app/WFXMLParserDemo";
+			};
+			name = Debug;
+		};
+		DC0471341AD4E9E10048EE5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WFXMLParserDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WFXMLParserDemo.app/WFXMLParserDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC0471071AD4E9E10048EE5B /* Build configuration list for PBXProject "WFXMLParserDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC04712D1AD4E9E10048EE5B /* Debug */,
+				DC04712E1AD4E9E10048EE5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC04712F1AD4E9E10048EE5B /* Build configuration list for PBXNativeTarget "WFXMLParserDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC0471301AD4E9E10048EE5B /* Debug */,
+				DC0471311AD4E9E10048EE5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC0471321AD4E9E10048EE5B /* Build configuration list for PBXNativeTarget "WFXMLParserDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC0471331AD4E9E10048EE5B /* Debug */,
+				DC0471341AD4E9E10048EE5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC0471041AD4E9E10048EE5B /* Project object */;
+}
